@@ -65,25 +65,25 @@ class App extends Component {
 
             <div className="contributor-previews">
               <div className="contributor-preview">
-                <iframe title="yt1" width="350" height="195" src="https://www.youtube.com/embed/ydJ04HAKYjk" frameBorder="0" allowFullScreen></iframe>
+                <iframe title="yt1" width="350" height="195" src="{'{yt1}'}" frameBorder="0" allowFullScreen></iframe>
               </div>
               <div className="contributor-preview">
-                <iframe title="yt2" width="350" height="195" src="https://player.vimeo.com/video/60775799" frameBorder="0" allowFullScreen></iframe>
+                <iframe title="yt2" width="350" height="195" src="{'{yt2}'}" frameBorder="0" allowFullScreen></iframe>
               </div>
               <div className="contributor-preview">
-                <iframe title="yt3" width="350" height="195" src="https://www.youtube.com/embed/M-2N_YdzxV4" frameBorder="0" allowFullScreen></iframe>
+                <iframe title="yt3" width="350" height="195" src="{'{yt3}'}" frameBorder="0" allowFullScreen></iframe>
               </div>
             </div>
 
             <div className="mobile-contributor-previews">
               <div className="contributor-preview">
-                <iframe title="yt4" width="250" height="150" src="https://www.youtube.com/embed/ydJ04HAKYjk" frameBorder="0" allowFullScreen></iframe>
+                <iframe title="yt4" width="250" height="150" src="{'{yt1}'}" frameBorder="0" allowFullScreen></iframe>
               </div>
               <div className="contributor-preview">
-                <iframe title="yt5" width="250" height="150" src="https://player.vimeo.com/video/60775799" frameBorder="0" allowFullScreen></iframe>
+                <iframe title="yt5" width="250" height="150" src="{'{yt2}'}" frameBorder="0" allowFullScreen></iframe>
               </div>
               <div className="contributor-preview">
-                <iframe title="yt6" width="250" height="150" src="https://www.youtube.com/embed/M-2N_YdzxV4" frameBorder="0" allowFullScreen></iframe>
+                <iframe title="yt6" width="250" height="150" src="{'{yt3}'}" frameBorder="0" allowFullScreen></iframe>
               </div>
             </div>
 

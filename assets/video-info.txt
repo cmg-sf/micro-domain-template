@@ -1,0 +1,2 @@
+Insert into this folder a video that is an MP4 named: 
+bg-video.mp4

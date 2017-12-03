@@ -49,7 +49,7 @@ class App extends Component {
         </div>
 
         <div className="info-sec">
-          <section><h1>{'{MAIN SUBJECT}'} <a className="rf" href="https://en.wikipedia.org/wiki/Royalty-free">Royalty-free</a> Stock Video Footage Marketplace</h1></section>
+          <section><h1>{'{MAIN SUBJECT}'} <a className="rf" href="https://en.wikipedia.org/wiki/Royalty-free"><i className="fa fa-info-circle"></i></a></h1></section>
           <div className="hr-red"/>
           <section className="catagory-sec">
             <h1>Browse by Catagory</h1>

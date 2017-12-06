@@ -28,11 +28,12 @@ class Footer extends Component{
                     <div className="link-sec">
                         <h3>FOLLOW US</h3>
                         <div className="social-links">
-                            <a href="https://www.facebook.com/stockfootageinc" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook fa-lg"></i></a>
+                        <a href="https://www.facebook.com/stockfootageinc" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook fa-lg"></i></a>
                             <a href="https://twitter.com/stockfootageinc" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter fa-lg"></i></a>
                             <a href="https://www.youtube.com/user/HQMEDIA" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube-play fa-lg"></i></a>
                         </div>
                     </div>
+                    <img src="https://stockfootage.com/wp-content/uploads/2016/10/RedWhite_DS-380x252.png" alt=""/>
                 </section>
                 <br/>
                 <div className="white-line"></div>

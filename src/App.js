@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 
 import Footer from './components/Footer/Footer';
 
+import poster from './img/poster.jpg';
+import logo from './img/sf-logo.png';
+
 import './App.css';
 
 class App extends Component {
@@ -18,14 +21,14 @@ class App extends Component {
   }
   search(e){
     e.preventDefault();
-    window.location.assign(`https://stockfootage.com/?s=${this.state.search}&post_type=product`);
+    window.location.assign(`https://stockfootage.com/?s=~~~key~~~${this.state.search}&post_type=product`);
   }
   render() {
     return (
       <div className="App">
 
         <div className="bg-video-container">
-          <video className="bg-video" loop="1" autoPlay="1" playsInline="" muted="1" data-bgvideo="" poster="./img/SF Logo.jpg" data-bgvideo-fade-in="500" data-bgvideo-pause-after="120" data-bgvideo-show-pause-play="false" data-bgvideo-pause-play-x-pos="right" data-bgvideo-pause-play-y-pos="top">
+          <video className="bg-video" loop="1" autoPlay="1" playsInline="" muted="1" data-bgvideo="" poster={poster} data-bgvideo-fade-in="500" data-bgvideo-pause-after="120" data-bgvideo-show-pause-play="false" data-bgvideo-pause-play-x-pos="right" data-bgvideo-pause-play-y-pos="top">
             <source src="/assets/bg-video.mp4" type="video/mp4"/>
             <source src="/assets/bg-video.mp4" type="video/webm"/>
             <source src="/assets/bg-video.mp4" type="video/ogg"/>
@@ -40,8 +43,8 @@ class App extends Component {
             <a className="nav-link" href="https://stockfootage.com/my-account">LOGIN</a>
           </header>
           <div className="interact-box">
-            <h1>{'{DOMAIN}'}</h1>
-            <img src="https://stockfootage.com/wp-content/uploads/2016/10/RedWhite_DS-380x252.png" alt=""/>
+            <img src={logo} alt=""/>
+            <h1><span style={{color: 'rgb(188, 52, 38)'}}>{'{DOMAIN RED}'}</span>{'{DOMAIN WHITE}'}</h1>
             <form className="search" onSubmit={e=>this.search(e)}>
               <input placeholder="Search" onChange={e=>this.handleChange(e.target.value)} value={this.state.search} type="text"/>
             </form>
@@ -49,7 +52,10 @@ class App extends Component {
         </div>
 
         <div className="info-sec">
-          <section><h1>{'{MAIN SUBJECT}'} <a className="rf" href="https://en.wikipedia.org/wiki/Royalty-free"><i className="fa fa-info-circle"></i></a></h1></section>
+          <section>
+            <h1>{'{MAIN SUBJECT}'}</h1>
+            <h4 className="sub-banner">{'{DOMAIN RED}'}{'{DOMAIN WHITE}'} is a division of <a style={{textDecoration:'none', color: '#999'}} href="https://stockfootage.com/">StockFootage.com</a></h4>
+          </section>
           <div className="hr-red"/>
           <section className="catagory-sec">
             <h1>Browse by Catagory</h1>

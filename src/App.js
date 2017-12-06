@@ -21,7 +21,7 @@ class App extends Component {
   }
   search(e){
     e.preventDefault();
-    window.location.assign(`https://stockfootage.com/?s=~~~key~~~${this.state.search}&post_type=product`);
+    window.location.assign(`https://stockfootage.com/?s=~~~key~~~+${this.state.search}&post_type=product`);
   }
   render() {
     return (

@@ -49,6 +49,7 @@ class App extends Component {
               <input placeholder="Search" onChange={e=>this.handleChange(e.target.value)} value={this.state.search} type="text"/>
             </form>
           </div>
+          <div></div>
         </div>
 
         <div className="info-sec">
@@ -58,7 +59,7 @@ class App extends Component {
           </section>
           <div className="hr-red"/>
           <section className="catagory-sec">
-            <h1>Browse by Catagory</h1>
+            <h1>Browse by Category</h1>
             <div className="catagories">
 {'{categories}'}
             </div>

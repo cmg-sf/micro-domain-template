@@ -33,7 +33,7 @@ class Footer extends Component{
                             <a href="https://www.youtube.com/user/HQMEDIA" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube-play fa-lg"></i></a>
                         </div>
                     </div>
-                    <img src="https://stockfootage.com/wp-content/uploads/2016/10/RedWhite_DS-380x252.png" alt=""/>
+                    <img className="footer-logo" src="https://stockfootage.com/wp-content/uploads/2016/10/RedWhite_DS-380x252.png" alt=""/>
                 </section>
                 <br/>
                 <div className="white-line"></div>

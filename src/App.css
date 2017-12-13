@@ -1,7 +1,7 @@
-/* @font-face {
+@font-face {
   font-family: 'Rockwell';
   src: url('/fonts/rock.ttf') format('truetype');
-} */
+}
 
 * {
   box-sizing: border-box;
@@ -59,7 +59,7 @@ body {
   width: 350px;
 }
 .interact-box h1 {
-  font-family: 'Rockwell', 'Cursive', 'Open Sans', sans-serif;
+  font-family: 'Rockwell', 'Open Sans', sans-serif;
   font-size: 40px;
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
   letter-spacing: -1px;
@@ -208,6 +208,9 @@ section {
   .interact-box {
     width: 300px;
   }
+  .interact-box h1{
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 330px) {
@@ -269,13 +272,12 @@ section {
     color: white;
     display: grid;
     grid-template-rows: 90px 1fr 45px;
-    grid-gap: 15px;
     justify-items: center;
     align-items: center;
     width: 350px;
   }
   .interact-box h1 {
-    font-family: 'Rockwell', 'Cursive', 'Open Sans', sans-serif;
+    font-family: 'Rockwell', 'Open Sans', sans-serif;
     font-size: 40px;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
     letter-spacing: -1px;

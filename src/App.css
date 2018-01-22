@@ -271,7 +271,7 @@ section {
   .interact-box {
     color: white;
     display: grid;
-    grid-template-rows: 90px 1fr 45px;
+    grid-template-rows: 90px 50px 45px;
     justify-items: center;
     align-items: center;
     width: 350px;

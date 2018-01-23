@@ -58,12 +58,9 @@ class App extends Component {
             <h4 className="sub-banner">{'{DOMAIN RED}'}{'{DOMAIN WHITE}'} is a division of <a style={{textDecoration:'none', color: '#999'}} href="https://stockfootage.com/">StockFootage.com</a></h4>
           </section>
           <div className="hr-red"/>
-          <section className="category-sec">
-            <h1>Browse by Category</h1>
-            <div className="categories">
+
 {'{categories}'}
-            </div>
-          </section>
+
           <br/>
           <div className="hr-red"/>
           <section className="contributors">

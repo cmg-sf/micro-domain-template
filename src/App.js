@@ -61,8 +61,6 @@ class App extends Component {
 
 {'{categories}'}
 
-          <br/>
-          <div className="hr-red"/>
           <section className="contributors">
             <h1><span className="contrib-show">Contributors Showcase</span> - Inspired to Create</h1>
 
